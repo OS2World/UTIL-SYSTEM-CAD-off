@@ -1,0 +1,105 @@
+
+                                CAD/Off 1.01
+                         --------------------------
+
+NAME
+     cadoff - disables the CTRL-ALT-DEL rebooting keys
+
+SYNOPSIS
+     There are no arguments by now; if you give any parameter, only an
+     "about" window will be shown and the program will exit immediatly
+     after that.
+
+DESCRIPTION
+     CAD/Off is a small utility that disables the CTRL-ALT-DEL key
+     combination that normaly starts a reboot and enables it again after
+     system shutdown, allowing to reboot the system then.
+
+     Note 1: According to the documentations I have, the system function of
+     the keyboard device that I use (and which is the only way to disable
+     the rebooting keys) should also disable ALT+ESC and CTRL+ESC, thus
+     making it a bit hard to switch between sessions. Fortunatly that never
+     happened on my system. Maybe the working of this function has changed
+     a bit with time and versions of OS/2. Just remember not to be
+     suprised, if you experience that "feature" on your system.
+
+     Note 2: AFAIK it is only possible to *toggle* the state of the keys,
+     not explicitly set them to "disabled" or "enabled". So if you start
+     the program, when the keys are already disabled (by some other program
+     e.g.) or if you kill the program (there is currently no way to quit
+     properly, other thhan through system shutdown) and start it again, the
+     keys will then be *enabled*!
+
+INSTALLATION
+     If you've unzipped the archiv (which seems to be the case, since you
+     are reading this file ;-) and copied the files to some appropriate
+     directory, you're done.
+
+USING THE KEYBOARD
+     There are no special hotkeys by now.
+
+MOUSE SUPPORT
+     And there is no mouse support too.
+
+FILES
+     cadoff.exe    The program itself.
+     cadoff.doc    The file you are reading at the moment :-)
+     cadoff.ico    CAD/Off icon for the WPS.
+     file_id.diz   Short program-description.
+
+BUGS
+     Hopefully none, but who knows ...
+
+TO DO
+     I have no further plans, as this utility was written not for me but
+     someone else ...
+
+CREDITS
+     Nocad 1.0 by B. Kunrath proved to be helpful in the developement of
+     this program.
+
+COPYRIGHT
+     CAD/Off - Copyright (c) 1999 Thorsten Thielen. All rights reserved.
+
+STATUS OF PROGRAM
+     CAD/Off is freeware.
+     Permission is given by the author to freely redistribute and include
+     this code in any program as long as credit is given where due.
+
+DISCLAIMER
+     "I didn't do it! I didn't do it! Butthead did it!" ;)
+
+     YOU ARE USING THIS PROGRAM AT YOUR OWN RISK! I don't take any 
+     responsibillity for damages, problems, custodies, marital dis-
+     putes, etc. resulting from use, inability to use, misuse, pos-
+     session or non-possession of this program directly or indirectly.
+     I also don't give any warranty for bug-free operation, fitness for
+     a particular purpose or the appropriate behaviour of the program
+     concerning animals, programers and little children.
+
+     THE SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+     IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+     WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+     PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+     PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU
+     ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+     Or, in a few words:
+     If its good, I am responsible.
+     If its bad, its all your fault. ;)
+
+     All trademarks mentioned anywhere around her are property of their
+     owners and the like ...
+
+AUTHOR
+     Thorsten Thielen
+
+     Internet: thth@gmx.net
+     Fidonet: 2:2452/455.999
+
+EPILOGUE
+     Suggestions and bug-reports are always welcome. Well ... bug-reports
+     are perhaps not *that* welcome ... ;)
+
+     Visit the CAD/Off homepage:
+     http://www.informatik.uni-trier.de/CIP/thielen/cadoff/

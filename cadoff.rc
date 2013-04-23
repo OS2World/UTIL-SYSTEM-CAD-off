@@ -1,0 +1,28 @@
+/***
+ cadoff.rc - Copyright (c) 1999 by Th. Thielen
+
+ Permission is given by the author to freely redistribute and include
+ this code in any program as long as this credit is given where due.
+ ***/
+
+#include <os2.h>
+
+ICON 1 cadoff.ico
+
+DLGTEMPLATE 1 LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "About ""CAD/Off""", 1, 90, 56, 250, 71,
+    	    WS_VISIBLE, FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        ICON            1, 101, 8, 49, 21, 16, WS_GROUP
+        LTEXT           "CAD/Off 1.01", 102, 42, 56, 202, 9
+                        PRESPARAMS PP_FOREGROUNDCOLOR, 0x00C80A0AL
+        LTEXT           "Disables reboot through CTRL-ALT-DEL", 103, 42, 44, 202, 8
+        LTEXT           "Copyright (c) 1999 Thorsten Thielen", 104, 42, 35, 
+                        202, 8
+        LTEXT           "e-Mail: thth@gmx.net", 105, 42, 23, 202, 8
+        LTEXT           "WWW: http://www.informatik.uni-trier.de/ CIP/thiele"
+                        "n/cadoff", 106, 42, 4, 202, 17, DT_WORDBREAK
+        DEFPUSHBUTTON   "Ok", 107, 8, 6, 22, 26
+    END
+END
