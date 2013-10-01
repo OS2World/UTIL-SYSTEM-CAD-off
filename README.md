@@ -5,7 +5,7 @@ Utility that disables the CTRL-ALT-DEL keys for rebooting and enables them again
 
 LICENSE
 ===============
-- Free to any use
+* Public Domain
 
 COMPILE TOOLS
 ===============
